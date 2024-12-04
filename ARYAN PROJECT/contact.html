@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Aryan Keyhani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="index.html">
+                        <h1><span>A</span>ryan <span>K</span>eyhani</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                        <div class="bar"></div>
+                    <ul>
+                        <li><a href="index.html" data-after="Home">Home</a></li>
+                        <li><a href="projects.html" data-after="Projects">Projects</a></li>
+                        <li><a href="about.html" data-after="About">About</a></li>
+                        <li><a href="contact.html" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- Contact Form Section -->
+        <section id="contact-form">
+            <div class="contact-form container">
+                <div>
+                    <h1 class="section-title">Contact <span>Form</span></h1>
+                </div>
+                <div class="contact-form">
+                    <form action="send_email.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Form Section -->
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact container">
+                <div>
+                    <h1 class="section-title">Contact <span>info</span></h1>
+                </div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon"><img src="IMG/NUM.png" /></div>
+                        <div class="contact-info">
+                            <h1>Phone</h1>
+                            <h2>+1 905 781 9458</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><img src="IMG/EMAIL.png" /></div>
+                        <div class="contact-info">
+                            <h1>Email</h1>
+                            <h2>Aryankey777@gmail.com</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><img src="IMG/ADD.png" /></div>
+                        <div class="contact-info">
+                            <h1>Address</h1>
+                            <h2>Windsor, Ontario, Canada</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>A</span>ryan <span>K</span>eyhani</h1>
+            </div>
+            <h2>Follow Me On</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/profile.php?id=100090526282952"><img src="IMG/FB.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/aryan.key/"><img src="IMG/INS.png" /></a>
+                </div>
+
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/aryan-keyhani-0b2342240/l"><img src="IMG/IN.png" /></a>
+                </div>
+            </div>
+            <p>Copyright © 2024 Aryan. All rights reserved</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+</body>
+
+</html>
